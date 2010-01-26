@@ -5,12 +5,14 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "haml-hikidoc-filter"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Haml filter that converts the HikiDoc syntax.}
+    gem.description = %Q{Haml filter that converts the HikiDoc syntax.}
     gem.email = "ursm@ursm.jp"
     gem.homepage = "http://github.com/esminc/haml-hikidoc-filter"
     gem.authors = ["Keita Urashima"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.add_dependency "haml"
+    gem.add_dependency "hikidoc"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

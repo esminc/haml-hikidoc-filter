@@ -1,9 +1,9 @@
 = haml-hikidoc-filter
 
-Description goes here.
+Haml filter that converts the HikiDoc syntax.
 
 == Note on Patches/Pull Requests
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
@@ -15,3 +15,4 @@ Description goes here.
 == Copyright
 
 Copyright (c) 2010 Keita Urashima. See LICENSE for details.
+haml-hikidoc-filter's development has been supported by Eiwa System Management, Inc.
